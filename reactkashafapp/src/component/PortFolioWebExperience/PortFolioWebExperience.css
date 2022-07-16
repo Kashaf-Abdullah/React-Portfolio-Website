@@ -1,0 +1,19 @@
+.exp{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+} 
+.experience .expHeading {
+    font-size: 46px;
+    font-weight: 700;
+color: #851452;
+}
