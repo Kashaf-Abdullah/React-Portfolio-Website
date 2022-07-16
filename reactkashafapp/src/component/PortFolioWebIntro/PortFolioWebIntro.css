@@ -1,1 +1,97 @@
+.intro {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+/* margin-top:28%; */
+background-color: #430341;
 
+
+}
+
+.leftside{
+
+margin-top: 8%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.leftside span:nth-of-type(1){
+
+color:#f5d1c2;
+font-size: 30px;
+font-weight: 800;
+
+}
+
+.leftside :nth-of-type(2){
+
+    color:	  #e87317;
+    font-size: 50px;
+    font-weight: 900;
+
+    }
+    
+    .leftside :nth-of-type(3){
+
+        color:	  #ffcccc;
+        
+        font-size: 15px;
+        }
+        
+    
+.introbtn{
+    padding-top:13px ;
+    color:black;
+}
+            .btnintro {
+
+                border-radius: 35px;
+  border:none;
+  color: rgb(255, 255, 255);
+  border:2px solid rgb(104, 1, 76);
+  font-size: 12px;
+  padding: 11px 26px 11px 25px;
+  background: linear-gradient(180deg,#ab4b78 26.71%,#fb982f 99.36%);
+  box-shadow: 9px 10px 18px 7px rgba(236, 236, 236, 0.41);
+
+}
+
+.rightside{
+width: 31%;
+
+justify-content: center;
+align-items: center;
+align-self: center;align-content: center;
+
+}
+
+.floatingdiv {
+    display: flex;
+    flex-direction: row;
+    gap:7px;
+}
+            .floatingdiv span{
+                position: relative;
+                right:25px;
+                font-weight: bolder;
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            .floatingdiv img{
+                position: relative;
+                left:15px;
+                top:9px;
+            }
+            .floatingdiv{
+                display: flex;
+                justify-content: space-around;
+                /* background-color: rgb(46, 192, 72); */
+            position: relative;
+            right:33%; 
+            width:54px;
+            border-radius: 3rem;   
+            font-size: 7px;
+            }
+                .floatingdiv img{
+                 transform: scale(0.4);   
+                }
