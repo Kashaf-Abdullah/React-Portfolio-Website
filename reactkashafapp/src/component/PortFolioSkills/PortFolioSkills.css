@@ -1,0 +1,119 @@
+.t-wrapper{
+    padding:0 3rem 0 3rem;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-direction: column;
+    gap:1rem;
+    position:relative;
+}
+.t-heading{
+    align-self: start;
+}
+
+
+
+.t-heading>*{
+
+    display: flex;
+    flex-direction: column;
+}
+.t-heading span:nth-of-type(1){
+    font-size: 46px;
+    font-weight: 700;
+color: #851452;
+}
+
+.t-heading span:nth-of-type(2){
+    color: rgb(216, 151, 226);
+    font-size: 22px;
+    font-weight: 100;
+}
+
+
+
+.t-heading span:nth-of-type(3){
+    color: rgb(216, 151, 226);
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem;
+    width:30rem;
+    height:18rem;
+    /* style same as work.css */
+    background: rgba(52, 165, 203, 0.26);
+    border:7px solid var(--blur);
+    /* box-shadow:5px 5px 20px; */
+    box-shadow: -5px -5px 30px 5px rgb(172, 115, 115), 5px 5px 30px 5px rgb(81, 81, 146);;
+    border-radius: 20px;
+}
+
+.testimonials span:nth-of-type(1){
+    color: rgb(136, 31, 111);
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.testimonials span:nth-of-type(2){
+    color: rgb(151, 103, 140);
+    font-size: 16px;
+   
+}
+.testimonial>span{
+    color:var(--gray);
+}
+
+.t-wrapper .swiper{
+    width:100%;
+height:70%;
+}
+
+.t-wrapper .swiper-slide{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-wrapper .swiper-pagination-bullet-active{
+    background: rgb(124, 19, 128);
+
+}
+
+
+
+
+
+@media screen and (max-width:480px) {
+    .t-wrapper{
+        padding: 0;
+    }
+    .testimonial img{
+        width:70px;
+        height:70px;
+    }
+
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding:2rem;
+        width:15rem;
+        height:22rem;
+        /* style same as work.css */
+        background: rgba(52, 165, 203, 0.26);
+        /* border:7px solid var(--blur); */
+        /* box-shadow:5px 5px 20px; */
+        box-shadow: -5px -5px 30px 5px rgb(172, 115, 115), 5px 5px 30px 5px rgb(81, 81, 146);;
+        border-radius: 20px;
+    }
+
+}
