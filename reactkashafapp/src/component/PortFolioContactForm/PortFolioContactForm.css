@@ -1,0 +1,133 @@
+.contactform{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: Wrap;
+text-align: center;
+justify-content: center;
+    background-color:#dbcddb;
+    box-shadow: -5px -5px 30px 5px rgb(219, 172, 172), 5px 5px 30px 5px rgb(167, 167, 209);
+margin-top: 9px;}
+.c-left input:last-child::placeholder{
+    color:#1a030f;
+    font-weight: bold;
+}
+.c-left input:first-child::placeholder{
+    color:#200112;
+    font-weight: bold;
+}
+
+.c-left textarea:first-child::placeholder{
+    color:#200112;
+    font-weight: bold;
+}
+
+.contactname #lname{
+ margin-top: 14px;
+}
+
+.contactinfo #phoneNo{
+    margin-top: 14px;
+   }
+.c-left span:nth-of-type(1){
+    color: #851452;
+    font-weight: 700;
+}
+.c-left span:nth-of-type(2){
+    color: rgb(230, 201, 206);
+    font-weight: 200;
+}
+.c-left{
+   
+display: flex;
+flex-direction: column;
+}
+ #fname {
+    margin-right: 16px;
+  
+}
+form .contactname input{
+background:rgb(170, 119, 147);
+border-radius: 10px;
+color:aliceblue;
+
+
+}
+.contactbtn{
+    display:flex;
+    font-size: 17px;
+        justify-content: center;
+    border: 2px solid pink;
+/* 
+    width:63px ;
+    height:29px; */
+    border-radius: 12px;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(165, 80, 94);
+    margin-top: 9px;
+}
+
+.contactinfo{
+    margin-top: 9px;
+}
+#mail {
+    margin-right: 16px;
+  
+}
+form .contactinfo input{
+background:rgb(170, 119, 147);
+border-radius: 10px;
+color:aliceblue
+
+}
+
+
+form textarea{
+    background:rgb(170, 119, 147);
+    border-radius: 10px;
+    color:aliceblue;
+    width:auto;
+    margin-top: 11px;
+    
+    }
+
+    .contactmsg {
+        display: flex;
+        justify-content: center;
+    
+    }
+    .c-right{
+        margin-left:19px;
+justify-content: center;
+text-align: center;
+    }
+.c-right .aboutinfo{
+    display: flex;
+    flex-direction: column;
+}
+.aboutinfo span:nth-of-type(1){
+    color:#851452;
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+.aboutinfo span:nth-of-type(2){
+    color:rgb(164, 109, 118);
+    font-size: 19px;
+    font-weight: 500;
+}
+.aboutinfo span:nth-of-type(3){
+    color:rgb(164, 109, 118);
+    font-size: 13px;
+    font-weight: 500;
+}
+.aboutinfo span:nth-of-type(4){
+    color:#851452;
+    font-size: 29px;
+    font-weight: bolder;
+}
+.aboutinfo span:nth-of-type(5){
+    color:rgb(164, 109, 118);
+    font-size: 19px;
+    font-weight: 500;
+}
