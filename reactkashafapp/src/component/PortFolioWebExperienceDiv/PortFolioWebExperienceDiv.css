@@ -1,0 +1,55 @@
+.achievement{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ 
+
+}
+
+
+.circle{
+    width:9rem;
+    height:9rem;
+    background: white;
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+ flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+ 
+
+    
+}
+
+.circle::before{
+
+    border-radius: 100%;
+    content: '';
+    background-image:linear-gradient(to bottom,#ffcccc 0%,#cc0099);
+top:-8px;
+left:-8px;
+bottom:-8px;
+right: -8px;
+position: absolute;
+z-index:-1;
+box-shadow: -5px -5px 30px 5px rgb(111, 30, 30), 5px 5px 30px 5px rgb(81, 81, 146);
+}
+
+
+.circle span:nth-of-type(1){
+    color:   #cc85db;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+
+.circle span:nth-of-type(2){
+    color:  #cc0099;
+    font-weight: 800;
+    font-size: 10px;
+}
